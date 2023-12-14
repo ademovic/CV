@@ -1,0 +1,109 @@
+* {
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: black;
+    text-align: center;
+    margin: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+html {
+    background-color: rgb(255, 255, 255);
+}
+
+
+li {
+    font-size: 18px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+
+header {
+    background-color: rgb(255, 255, 255);
+    font-size: 24px;
+    width: 95%;
+    margin: 0 auto 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 36px;
+    background-color: rgb(255, 255, 255);
+    text-decoration: underline;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+
+section p {
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+
+section li {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+img:hover {
+    transform: scaleX(-1);
+}
+
+img {
+    width: 200px;
+    clip-path: circle();
+}    
+
+
+footer {
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    width: 96%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+section {
+    background-color:rgb(255, 255, 255);
+    border-radius: 20px;
+    margin: 15px;
+    padding: 20px;
+    width: 30.5%; 
+    margin-right: 20px; 
+}
+
+a {
+    text-decoration: none;
+}
+
+nav {
+    text-align: left;
+    line-height: 5;
+}
